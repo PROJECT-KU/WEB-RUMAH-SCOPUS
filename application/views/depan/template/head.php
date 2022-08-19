@@ -121,3 +121,86 @@
         });
     });
 </script>
+
+
+
+<!--============================= HOME =============================-->
+   
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Rumah Scopus</title>
+    <link rel="shorcut icon" href="<?php echo base_url() . 'theme/images/logo/favicon-32x32.png' ?>">
+    </head>
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" />
+<style>
+    h1 {
+        font-family: Bahnschrift;
+        font-size: 40px;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: 700;
+        line-height: 26.4px;
+    }
+
+
+
+    p {
+        font-family: Righteous;
+        font-size: 14px;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: 400;
+        line-height: 20px;
+    }
+
+    blockquote {
+        font-family: Righteous;
+        font-size: 21px;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: 400;
+        line-height: 30px;
+    }
+
+    pre {
+        font-family: Righteous;
+        font-size: 13px;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: 400;
+        line-height: 18.5714px;
+    }
+</style>
+
+<!-- FITUR -->
+<link rel="stylesheet" href="<?php echo base_url() . 'theme/css/fiturHome.css' ?>">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+<!-- END -->
+
+<!-- VIDEO YOUTUBE -->
+<style>
+    html,
+    body1 {
+        height: 100%
+    }
+
+    .container1 {
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 40px;
+
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box {
+        height: 100px;
+        width: 100px;
+
+    }
+</style>
+<!-- END -->
+
+<!--============================= END HOME =============================-->

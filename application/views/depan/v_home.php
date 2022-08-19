@@ -1,58 +1,4 @@
-<head>
-
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Rumah Scopus</title>
-    <link rel="shorcut icon" href="<?php echo base_url() . 'theme/images/logo/favicon-32x32.png' ?>">
-    </head>
-<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" />
-<style>
-    h1 {
-        font-family: Bahnschrift;
-        font-size: 40px;
-        font-style: normal;
-        font-variant: normal;
-        font-weight: 700;
-        line-height: 26.4px;
-    }
-
-
-
-    p {
-        font-family: Righteous;
-        font-size: 14px;
-        font-style: normal;
-        font-variant: normal;
-        font-weight: 400;
-        line-height: 20px;
-    }
-
-    blockquote {
-        font-family: Righteous;
-        font-size: 21px;
-        font-style: normal;
-        font-variant: normal;
-        font-weight: 400;
-        line-height: 30px;
-    }
-
-    pre {
-        font-family: Righteous;
-        font-size: 13px;
-        font-style: normal;
-        font-variant: normal;
-        font-weight: 400;
-        line-height: 18.5714px;
-    }
-</style>
-<!--=============================  FITUR =============================-->
-<link rel="stylesheet" href="<?php echo base_url() . 'theme/css/fiturHome.css' ?>">
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
-<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
-<!--============================= END =============================-->
-
+<!--============================= HEADER =============================-->
 <section>
     <div class="slider_img layout_two">
         <div id="carousel" class="carousel slide" data-ride="carousel">
@@ -116,7 +62,7 @@
         </div>
     </div>
 </section>
-<!--END HEADER -->
+<!--============================= END =============================-->
 
 <!--============================= ABOUT =============================-->
 <section class="clearfix about about-style2">
@@ -152,7 +98,7 @@
                     <img style="background-color: rgba(22, 160, 133, 0.1)" src="<?php echo base_url() . 'theme/images/logo/webinar.png' ?>"> 
                         <div class="card-body">
                             <center><h5 class="card-title mt-3 mb-2" ><b>Webinar Scopus Training</b></h5></center>
-                            <p style="margin:5px;">webinar adalah kegiatan seminar yang dilakukan secara online atau offline yang di lakukan oleh pihak scopus dalam melayani pendampingan jurnal.</p>
+                            <p style="margin:5px;">Pelayanan kegiatan seminar yang dilakukan secara online atau offline yang di lakukan oleh pihak scopus dalam melayani pendampingan jurnal.</p>
                             <center><a href="#" class="btn btn-primary mb-2" style="color:white;">Pesan Sekarang!</a></center>
                         </div>
                 </div>
@@ -204,8 +150,38 @@
         </div>
     </div>
 </section>
+<!--============================= END =============================-->
 
-<!--============================= OUR COURSES =============================-->
+<!--============================= MENGAPA MEMILIH KAMI =============================-->
+<section class="clearfix about about-style2" style="margin-top:-100px ;"> 
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Trainer Yang Profesional</h2>
+                <p>Rumah Scopus Foundation memiliki Trainer yang sudah berpengalaman dan profesional mengenai paper. Trainer kami akan membantu anda untuk menyelesaikan atau submit paper hingga 
+                    internasional yang terindeks scopus.</p>    
+            </div>
+            <div class="col-md-4">
+                <img style="margin-right: 50px; margin-top:-20px; width:max-content; height:fit-content;" src="<?php echo base_url() . 'theme/images/trainer.png' ?>">
+            </div>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-md-6" style="position: relative;">
+                <img style="margin-right: 50px; margin-top:-20px; width:max-content; height:fit-content;" src="<?php echo base_url() . 'theme/images/biaya.png' ?>">
+            </div>
+            <div class="col-md-6">
+                <h2>Biaya Terjangkau</h2>
+                <p>Rumah Scopus Foundation memiliki Trainer yang sudah berpengalaman dan profesional mengenai paper. Trainer kami akan membantu anda untuk menyelesaikan atau submit paper hingga 
+                    internasional yang terindeks scopus.</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+<!--============================= END =============================-->
+
+<!--============================= ARTIKEL TERBARU =============================-->
 <section class="our_courses" >
     <div class="container">
         <div class="row">
@@ -235,39 +211,17 @@
         </div>
     </div>
 </section>
-<!--//END OUR COURSES -->
+<!--============================= END =============================-->
 
-<!--============================= EVENTS =============================-->
-
-
-<!-- VIDEO YOUTUBE -->
-<style>
-    html,
-    body1 {
-        height: 100%
-    }
-
-    .container1 {
-        margin-right: auto;
-        margin-left: auto;
-        margin-bottom: 40px;
-
-        justify-content: center;
-        align-items: center;
-    }
-
-    .box {
-        height: 100px;
-        width: 100px;
-
-    }
-</style>
+<!--============================= VIDEO =============================-->
 <div class="container1 row ">
 
     <iframe width="950" height="450" src="https://www.youtube.com/embed/5UN5E1MnpPE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 </div>
-<!--============================= DETAILED CHART =============================-->
+<!--============================= END =============================-->
+
+<!--============================= INFO CHART =============================-->
 <div class="detailed_chart">
     <div class="container">
         <div class="row">
@@ -309,7 +263,7 @@
         </div>
     </div>
 </div>
-<!--//END DETAILED CHART -->
+<!--============================= END =============================-->
 
 <!--============================= TESTIMONIAL =============================-->
 <section class="testimonial">
@@ -349,19 +303,4 @@
         </div>
     </div>
 </section>
-<!--//END TESTIMONIAL -->
-<!-- jQuery, Bootstrap JS. -->
-<script src="<?php echo base_url() . 'theme/js/jquery.min.js' ?>"></script>
-<script src="<?php echo base_url() . 'theme/js/tether.min.js' ?>"></script>
-<script src="<?php echo base_url() . 'theme/js/bootstrap.min.js' ?>"></script>
-<!-- Plugins -->
-<script src="<?php echo base_url() . 'theme/js/slick.min.js' ?>"></script>
-<script src="<?php echo base_url() . 'theme/js/waypoints.min.js' ?>"></script>
-<script src="<?php echo base_url() . 'theme/js/counterup.min.js' ?>"></script>
-<script src="<?php echo base_url() . 'theme/js/owl.carousel.min.js' ?>"></script>
-<script src="<?php echo base_url() . 'theme/js/validate.js' ?>"></script>
-<script src="<?php echo base_url() . 'theme/js/tweetie.min.js' ?>"></script>
-<!-- Subscribe -->
-<script src="<?php echo base_url() . 'theme/js/subscribe.js' ?>"></script>
-<!-- Script JS -->
-<script src="<?php echo base_url() . 'theme/js/script.js' ?>"></script>
+<!--============================= END =============================-->
