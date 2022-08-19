@@ -51,9 +51,9 @@
                                 </li>-->
 
 
-                             <li class="nav-item">
+                             <!--<li class="nav-item">
                                  <a class="nav-link" href="<?php echo site_url('layanan'); ?>">Service</a>
-                             </li>
+                             </li>-->
                              <li class="nav-item">
                                  <a class="nav-link" href="<?php echo site_url('branch'); ?>">Branch</a>
                              </li>
@@ -66,9 +66,9 @@
                              <li class="nav-item">
                                  <a class="nav-link" href="<?php echo site_url('contact'); ?>">Contact</a>
                              </li>
-                             <li class="nav-item">
+                             <!--<li class="nav-item">
                                  <a class="btn btn-outline-info" href="<?php echo site_url('member/login'); ?>">Login/Daftar Member</a>
-                             </li>
+                             </li>-->
                          </ul>
                      </div>
                  </nav>
