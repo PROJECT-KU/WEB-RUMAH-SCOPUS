@@ -99,7 +99,7 @@
                         <div class="card-body">
                             <center><h5 class="card-title mt-3 mb-2" ><b>Webinar Scopus Training</b></h5></center>
                             <p style="margin:5px;">Pelayanan kegiatan seminar yang dilakukan secara online atau offline yang di lakukan oleh pihak scopus dalam melayani pendampingan jurnal.</p>
-                            <center><a href="#" class="btn btn-primary mb-2" style="color:white;">Pesan Sekarang!</a></center>
+                            <center><a href="https://api.whatsapp.com/send?phone=+6281226883280&text=Hallo%20kak!%20Saya%20mau%20pesan%20program%20Webinar%20Scopus%20Training." class="btn btn-primary mb-2" style="color:white;">Pesan Sekarang!</a></center>
                         </div>
                 </div>
             </div>
@@ -110,7 +110,7 @@
                         <div class="card-body">
                             <center><h5 class="card-title mt-3 mb-2" ><b>Scopus Camp</b></h5></center>
                             <p style="margin:5px;">Memberikan pelatihan penulisan paper yang berjalan selama kurun waktu tertentu.</p>
-                            <center><a href="#" class="btn btn-primary mb-2" style="color:white;">Pesan Sekarang!</a></center>
+                            <center><a href="https://api.whatsapp.com/send?phone=+6281226883280&text=Hallo%20kak!%20Saya%20mau%20pesan%20program%20Scopus%20Camp." class="btn btn-primary mb-2" style="color:white;">Pesan Sekarang!</a></center>
                         </div>
                 </div>
             </div>
@@ -121,7 +121,7 @@
                         <div class="card-body">
                             <center><h5 class="card-title mt-3 mb-2" ><b>Pendampingan Nyata Percepatan Guru Besar (PNP GB)</b></h5></center>
                             <p style="margin:5px;">Memberikan layanan dalam penyusunan paper yang bereputasi internasional yang terindeks Scopus.</p>
-                            <center><a href="#" class="btn btn-primary mb-2" style="color:white;">Pesan Sekarang!</a></center>
+                            <center><a href="https://api.whatsapp.com/send?phone=+6281226883280&text=Hallo%20kak!%20Saya%20mau%20pesan%20program%20Pendampingan%20Nyata%20Percepatan%20Guru%20Besar." class="btn btn-primary mb-2" style="color:white;">Pesan Sekarang!</a></center>
                         </div>
                 </div>
             </div>
@@ -143,7 +143,7 @@
                         <div class="card-body">
                             <center><h5 class="card-title mt-3 mb-2" ><b>Multi Entri Multi Exit (MeMe)</b></h5></center>
                             <p style="margin:5px;">memberikan layanan dalam penyusunan paper, dengan waktu yang fleksibel.</p>
-                            <center><a href="#" class="btn btn-primary mb-2" style="color:white;">Pesan Sekarang!</a></center>
+                            <center><a href="https://api.whatsapp.com/send?phone=+6281226883280&text=Hallo%20kak!%20Saya%20mau%20pesan%20program%20Multi%20Entri%20Multi%20Exit." class="btn btn-primary mb-2" style="color:white;">Pesan Sekarang!</a></center>
                         </div>
                 </div>
             </div>
@@ -172,8 +172,9 @@
             </div>
             <div class="col-md-6">
                 <h2>Biaya Terjangkau</h2>
-                <p>Rumah Scopus Foundation memiliki Trainer yang sudah berpengalaman dan profesional mengenai paper. Trainer kami akan membantu anda untuk menyelesaikan atau submit paper hingga 
-                    internasional yang terindeks scopus.</p>
+                <p>Dengan harga yang terjangkau anda dapat mengikuti program yang di berikan oleh Rumah Scopus tanpa menguras kantong. Meskipun harga terjangkau, tetapi kualitas kami
+                    utamakan baik pelayanan maupun fasilitas yang kami berikan kepada anda.
+                </p>
             </div>
         </div>
 
