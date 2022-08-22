@@ -19,7 +19,7 @@
     }
 </style>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-<a href="https://api.whatsapp.com/send?phone=+6281226883280" class="float" target="_blank">
+<a href="https://api.whatsapp.com/send?phone=+6281226883280&text=Hallo%20kak!%20Saya%20mau%20tanya%20tentang%20layanan%20Rumah%20Scopus." class="float" target="_blank">
     <i class="fa fa-whatsapp my-float"></i>
 </a>
 
@@ -30,9 +30,9 @@
             <div class="col-md-3">
                 <div class="foot-logo">
                     <a href="<?php echo site_url(); ?>">
-                        <img class="img img-responsive" width="150px;" src="<?php echo base_url() . 'theme/images/logo/logo-footer.png' ?>" class="img-fluid" alt="footer_logo">
+                        <img class="img img-responsive" width="250px;" src="<?php echo base_url() . 'theme/images/logo/logorsc.png' ?>" class="img-fluid" alt="footer_logo">
                     </a>
-                    <p><?php echo date('Y'); ?> © copyright by <a href="" target="_blank">Rumah Scopus</a>. <br>All rights reserved.</p>
+                    <p>copyright © <?php echo date('Y'); ?>  by <a href="" target="_blank" style="color: orange;">Rumah Scopus Foundation</a>. <br>All rights reserved.</p>
 
                 </div>
             </div>
@@ -40,11 +40,11 @@
                 <div class="sitemap">
                     <h3>Menu Utama</h3>
                     <ul>
-                        <li><a href="<?php echo site_url(); ?>">Home</a></li>
-                        <li><a href="<?php echo site_url('about'); ?>">About</a></li>
+                        <li><a href="<?php echo site_url(); ?>">Beranda</a></li>
+                        <li><a href="<?php echo site_url('trainer'); ?>">Trainer</a></li>
+                        <li><a href="<?php echo site_url('pengumuman'); ?>">Pengumuman</a></li>
+                        <li><a href="<?php echo site_url('about'); ?>">Tentang</a></li>
                         <li><a href="<?php echo site_url('artikel'); ?>">Blog </a></li>
-                        <li><a href="<?php echo site_url('galeri'); ?>">Gallery</a></li>
-                        <li><a href="<?php echo site_url('contact'); ?>">Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -52,11 +52,10 @@
                 <div class="sitemap">
                     <h3>Akademik</h3>
                     <ul>
-                        <li><a href="<?php echo site_url('#'); ?>">Bengkel Paper</a></li>
-                        <li><a href="<?php echo site_url('#'); ?>">Webinar</a></li>
-                        <li><a href="<?php echo site_url('#'); ?>">Private</a></li>
-                        <li><a href="<?php echo site_url('#'); ?>">Manuscript Preparation</a></li>
-                        <li><a href="<?php echo site_url('#'); ?>">Submit and Indexing</a></li>
+                        <li><a href="<?php echo site_url('#'); ?>">Webinar Scopus Training</a></li>
+                        <li><a href="<?php echo site_url('#'); ?>">Scopus Camp</a></li>
+                        <li><a href="<?php echo site_url('#'); ?>">Pendampingan Nyata Percepatan Guru Besar (PNP GB)</a></li>
+                        <li><a href="<?php echo site_url('#'); ?>">Multi Entri Multi Exit (MeMe)</a></li>
                     </ul>
                 </div>
             </div>

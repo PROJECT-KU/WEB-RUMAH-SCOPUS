@@ -85,7 +85,7 @@ Author:
   -webkit-box-shadow: none;
   box-shadow: none;
   color: #fff;
-  background: #cbb58b; }
+  background: #cbb58bs; }
 
 .dropdown-menu {
   min-width: 14rem;
@@ -427,14 +427,14 @@ a {
    OUR COURSES
    ============================================================== */
 .our_courses {
-  background: #f2f2f2;
+  background: #FF8C00;
   padding: 97px 0; }
   .our_courses h2 {
     font-weight: 700;
     margin: 0 0 28px; }
   .our_courses .courses_box a {
     text-decoration: none;
-    color: #2d2d2d; }
+    color: #FF8C00; }
   .our_courses .courses_box {
     position: relative;
     background: #fff;
@@ -453,8 +453,8 @@ a {
     .our_courses .courses_box h3 {
       font-weight: 600; }
     .our_courses .courses_box:hover {
-      -webkit-box-shadow: 0px 40px 90px -6px #c7c5c7;
-      box-shadow: 0px 40px 90px -6px #c7c5c7;
+      -webkit-box-shadow: 0px 40px 90px -6px #FF8C00;
+      box-shadow: 0px 40px 90px -6px #FF8C00;
       margin-top: -5px; }
 
 @-webkit-keyframes SlideIn {
@@ -1615,7 +1615,7 @@ select.form-control.custom-select {
     padding: 0;
     margin: 0; }
   .admission_discription li {
-    background: url(../images/discription-icon.png) no-repeat 5px 3px;
+    /*background: url(../images/discription-icon.png) no-repeat 5px 3px;*/
     list-style: none;
     padding: 0 0 12px 36px;
     font-size: 16px; }
@@ -1669,7 +1669,7 @@ select.form-control.custom-select {
     .admission_testimonial .admissiontesti-text_block h6 {
       line-height: 1.5; }
       .admission_testimonial .admissiontesti-text_block h6 span {
-        color: #cbb58b; }
+        color: #FF8C00; }
 
 .admission_rating {
   padding: 6px 16px;
