@@ -34,14 +34,11 @@
                      <button class="navbar-toggler navbar-toggler2 navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown">
                          <span class="icon-menu"></span>
                      </button>
-                     <a href="<?php echo site_url(''); ?>" class="navbar-brand nav-brand2"><img class="img img-responsive" width="150px;" src="<?php echo base_url() . 'theme/images/logo/logo2.jpg' ?>"></a>
+                     <a href="<?php echo site_url(''); ?>" class="navbar-brand nav-brand2"><img class="img img-responsive" width="150px;" src="<?php echo base_url() . 'theme/images/logo/logorsc.png' ?>"></a>
                      <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
                          <ul class="navbar-nav">
-                             <li class="nav-item">
-                                 <a class="nav-link" href="<?php echo site_url(''); ?>">Home</a>
-                             </li>
-                             <li class="nav-item">
-                                 <a class="nav-link" href="<?php echo site_url('about'); ?>">About</a>
+                             <li style="color: orange;" class="nav-item">
+                                 <a class="nav-link" href="<?php echo site_url(''); ?>">Beranda</a>
                              </li>
                              <li class="nav-item">
                                  <a class="nav-link" href="<?php echo site_url('trainer'); ?>">Trainer</a>
@@ -49,13 +46,11 @@
                              <!--<li class="nav-item">
                                     <a class="nav-link" href="<?php echo site_url('siswa'); ?>">Siswa</a>
                                 </li>-->
-
-
                              <!--<li class="nav-item">
                                  <a class="nav-link" href="<?php echo site_url('layanan'); ?>">Service</a>
                              </li>-->
                              <li class="nav-item">
-                                 <a class="nav-link" href="<?php echo site_url('branch'); ?>">Branch</a>
+                                 <a class="nav-link" href="<?php echo site_url('branch'); ?>">Cabang</a>
                              </li>
                              <!--<li class="nav-item">
                                     <a class="nav-link" href="<?php echo site_url('download'); ?>">Download</a>
@@ -64,7 +59,10 @@
                                  <a class="nav-link" href="<?php echo site_url('galeri'); ?>">Gallery</a>
                              </li>
                              <li class="nav-item">
-                                 <a class="nav-link" href="<?php echo site_url('contact'); ?>">Contact</a>
+                                 <a class="nav-link" href="<?php echo site_url('about'); ?>">Tentang</a>
+                             </li>
+                             <li class="nav-item">
+                                 <a class="nav-link" href="<?php echo site_url('contact'); ?>">Kontak</a>
                              </li>
                              <!--<li class="nav-item">
                                  <a class="btn btn-outline-info" href="<?php echo site_url('member/login'); ?>">Login/Daftar Member</a>

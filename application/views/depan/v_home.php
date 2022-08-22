@@ -207,7 +207,7 @@
         </div> <br>
         <div class="row">
             <div class="col-md-12 text-center">
-                <a href="<?php echo site_url('artikel'); ?>" class="btn btn-default btn-courses">View More</a>
+                <a href="<?php echo site_url('artikel'); ?>" class="btn btn-default btn-courses">Selengkapnya</a>
             </div>
         </div>
     </div>
