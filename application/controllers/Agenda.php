@@ -1,5 +1,5 @@
 <?php
-class Branch extends CI_Controller
+class Agenda extends CI_Controller
 {
 	function __construct()
 	{

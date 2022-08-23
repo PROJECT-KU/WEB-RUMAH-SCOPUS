@@ -16,7 +16,11 @@ class Kategori extends CI_Controller
 	function index()
 	{
 		$x['data'] = $this->m_kategori->get_all_kategori();
-		$this->load->view('admin/v_kategori', $x);
+		$this->load->view('admin/template/v_header');
+		$this->load->view('admin/template/navbar');
+			$this->load->view('admin/template/head');
+			$this->load->view('admin/v_kategori', $x);
+			$this->load->view('admin/template/footer');
 	}
 
 	function simpan_kategori()

@@ -37,21 +37,21 @@
                      <a href="<?php echo site_url(''); ?>" class="navbar-brand nav-brand2"><img class="img img-responsive" width="150px;" src="<?php echo base_url() . 'theme/images/logo/logorsc.png' ?>"></a>
                      <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
                          <ul class="navbar-nav">
-                             <li style="color: orange;" class="nav-item">
+                             <li class="nav-item">
                                  <a class="nav-link" href="<?php echo site_url(''); ?>">Beranda</a>
                              </li>
                              <li class="nav-item">
                                  <a class="nav-link" href="<?php echo site_url('trainer'); ?>">Trainer</a>
                              </li>
-                             <!--<li class="nav-item">
-                                    <a class="nav-link" href="<?php echo site_url('siswa'); ?>">Siswa</a>
-                                </li>-->
+                             <li class="nav-item">
+                                    <a class="nav-link" href="<?php echo site_url('cabang'); ?>">Cabang</a>
+                              </li>
                              <!--<li class="nav-item">
                                  <a class="nav-link" href="<?php echo site_url('layanan'); ?>">Service</a>
                              </li>-->
-                             <li class="nav-item">
-                                 <a class="nav-link" href="<?php echo site_url('branch'); ?>">Cabang</a>
-                             </li>
+                             <!--<li class="nav-item">
+                                 <a class="nav-link" href="<?php echo site_url('branch'); ?>">Branch</a>
+                             </li>-->
                              <!--<li class="nav-item">
                                     <a class="nav-link" href="<?php echo site_url('download'); ?>">Download</a>
                                 </li>-->

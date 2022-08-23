@@ -1,5 +1,5 @@
 <?php 
-class M_siswa extends CI_Model{
+class M_cabang extends CI_Model{
 
 	function get_all_siswa(){
 		$hsl=$this->db->query("SELECT tbl_siswa.*,kelas_nama FROM tbl_siswa JOIN tbl_kelas ON siswa_kelas_id=kelas_id");
