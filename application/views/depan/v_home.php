@@ -126,8 +126,13 @@
                     <img style="background-color: rgba(22, 160, 133, 0.1); " src="<?php echo base_url() . 'theme/images/logo/webinar1.png' ?>"> 
                         <div class="card-body">
                             <center><h5 class="card-title mt-3 mb-2" ><b>Webinar Scopus Training</b></h5></center>
+
                             <p style="margin:5px;">Pelayanan kegiatan seminar yang dilakukan secara online atau offline yang di lakukan oleh pihak scopus dalam melayani pendampingan jurnal</p>
+
                             <center><a href="https://api.whatsapp.com/send?phone=+6281226883280&text=Hallo%20kak!%20Saya%20mau%20pesan%20program%20Webinar%20Scopus%20Training." class="btn btn-primary mb-2" style="color:white;">Pesan Sekarang!</a></center>
+
+                            <center><a href="#" class="btn btn-primary mb-2" style="color:white;">Pesan Sekarang!</a></center>
+
                         </div>
                 </div>
             </div>
@@ -203,6 +208,9 @@
                 <p>Dengan harga yang terjangkau anda dapat mengikuti program yang di berikan oleh Rumah Scopus tanpa menguras kantong. Meskipun harga terjangkau, tetapi kualitas kami
                     utamakan baik pelayanan maupun fasilitas yang kami berikan kepada anda.
                 </p>
+                <p>Rumah Scopus Foundation memiliki Trainer yang sudah berpengalaman dan profesional mengenai paper. Trainer kami akan membantu anda untuk menyelesaikan atau submit paper hingga 
+                    internasional yang terindeks scopus.</p>
+
             </div>
         </div>
 
