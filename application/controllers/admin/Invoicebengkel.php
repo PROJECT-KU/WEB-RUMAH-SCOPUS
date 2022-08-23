@@ -18,7 +18,11 @@ class Invoicebengkel extends CI_Controller
         $kode = $this->session->userdata('idadmin');
         $x['user'] = $this->m_pengguna->get_pengguna_login($kode);
         $x['data'] = $this->db->get('tbl_order_bengkel_scopus')->result_array();
-        $this->load->view('admin/v_invoicebengkel', $x);
+        $this->load->view('admin/template/v_header');
+        $this->load->view('admin/template/navbar');
+			$this->load->view('admin/template/head');
+			$this->load->view('admin/v_invoicebengkel', $x);
+			$this->load->view('admin/template/footer');
     }
     public function add_webinar()
     {
@@ -102,7 +106,7 @@ class Invoicebengkel extends CI_Controller
             redirect('admin/invoicebengkel');
         
     }
-     public function delete($id_pesanan)
+    public function delete($id_pesanan)
     {
         $this->db->where('id_pesanan', $id_pesanan);
         $this->db->delete('tbl_order_bengkel_scopus');

@@ -65,7 +65,35 @@
 <!--============================= END =============================-->
 
 <!--============================= ABOUT =============================-->
-<section class="clearfix about about-style2">
+<section class="welcome_about">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7">
+                <h2 >Tentang Kami</h2>
+                <p>Rumah Scopus (RSc) adalah penyedia layanan jasa di bidang pendampingan penyusunan artikel ilmiah dan publikasi ke jurnal terindeks Scopus.
+                    Pendampingan dilaksanakan secara online dan offline secara personal dan kelompok atau institusi. Rumah Scopus berdiri pada 20 Februari 2019 yang berpusat di Yogyakarta.
+                    RSc hadir atas kegelisahan tentang publikasi jurnal terindeks Scopus. Strategi utama RSc menggabungkan teknologi, ilmu pengetahuan dan pengalaman dalam menyusun
+                    artikel sesuai standar Internasional. </p>
+
+            </div>
+            <style>
+                .avatar {
+                    vertical-align: middle;
+                    width: 30px;
+                    height: 360px;
+                    border-radius: 50%;
+
+                }
+            </style>
+            <div class="col-md-5 mt-5">
+                <img src="<?php echo base_url() . 'theme/images/logo/logorsc.png' ?>">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!--<section class="clearfix about about-style2">
     <div class="container">
         <div class="row">
             <div class="col-md-8">
@@ -81,7 +109,7 @@
             </div>
         </div>
     </div>
-</section>
+</section>-->
 <!--============================= END ABOUT =============================-->
 
 <!--============================= LAYANAN KAMI =============================-->
@@ -95,10 +123,10 @@
         <div class="row">
             <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
                 <div class="card courses_box mb-4">
-                    <img style="background-color: rgba(22, 160, 133, 0.1)" src="<?php echo base_url() . 'theme/images/logo/webinar.png' ?>"> 
+                    <img style="background-color: rgba(22, 160, 133, 0.1); " src="<?php echo base_url() . 'theme/images/logo/webinar1.png' ?>"> 
                         <div class="card-body">
                             <center><h5 class="card-title mt-3 mb-2" ><b>Webinar Scopus Training</b></h5></center>
-                            <p style="margin:5px;">Pelayanan kegiatan seminar yang dilakukan secara online atau offline yang di lakukan oleh pihak scopus dalam melayani pendampingan jurnal.</p>
+                            <p style="margin:5px;">Pelayanan kegiatan seminar yang dilakukan secara online atau offline yang di lakukan oleh pihak scopus dalam melayani pendampingan jurnal</p>
                             <center><a href="https://api.whatsapp.com/send?phone=+6281226883280&text=Hallo%20kak!%20Saya%20mau%20pesan%20program%20Webinar%20Scopus%20Training." class="btn btn-primary mb-2" style="color:white;">Pesan Sekarang!</a></center>
                         </div>
                 </div>
@@ -109,7 +137,7 @@
                     <img style="background-color:  rgba(213, 15, 37, 0.1)" src="<?php echo base_url() . 'theme/images/logo/camp.png' ?>"> 
                         <div class="card-body">
                             <center><h5 class="card-title mt-3 mb-2" ><b>Scopus Camp</b></h5></center>
-                            <p style="margin:5px;">Memberikan pelatihan penulisan paper yang berjalan selama kurun waktu tertentu.</p>
+                            <p style="margin:5px;">Memberikan pelatihan penulisan paper yang berjalan selama kurun waktu tertentu. Scopus Camp ini bertempat di scopus pusat yang berada di Turi, Sleman dan cabang Rumah Scopus</p>
                             <center><a href="https://api.whatsapp.com/send?phone=+6281226883280&text=Hallo%20kak!%20Saya%20mau%20pesan%20program%20Scopus%20Camp." class="btn btn-primary mb-2" style="color:white;">Pesan Sekarang!</a></center>
                         </div>
                 </div>
@@ -142,7 +170,7 @@
                     <img style="background-color:rgba(187, 120, 36, 0.1)" src="<?php echo base_url() . 'theme/images/logo/Waktu.png' ?>"> 
                         <div class="card-body">
                             <center><h5 class="card-title mt-3 mb-2" ><b>Multi Entri Multi Exit (MeMe)</b></h5></center>
-                            <p style="margin:5px;">memberikan layanan dalam penyusunan paper, dengan waktu yang fleksibel.</p>
+                            <p style="margin:5px;">memberikan layanan dalam penyusunan paper, dengan waktu yang fleksibel, dengan trainer yang profesional dan berpengalam.</p>
                             <center><a href="https://api.whatsapp.com/send?phone=+6281226883280&text=Hallo%20kak!%20Saya%20mau%20pesan%20program%20Multi%20Entri%20Multi%20Exit." class="btn btn-primary mb-2" style="color:white;">Pesan Sekarang!</a></center>
                         </div>
                 </div>
@@ -157,7 +185,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-                <h2>Trainer Yang Profesional</h2>
+                <h2>Trainer Profesional</h2>
                 <p>Rumah Scopus Foundation memiliki Trainer yang sudah berpengalaman dan profesional mengenai paper. Trainer kami akan membantu anda untuk menyelesaikan atau submit paper hingga 
                     internasional yang terindeks scopus.</p>    
             </div>
@@ -178,12 +206,77 @@
             </div>
         </div>
 
+        <div class="row mt-5">
+            <div class="col-md-6" style="position: relative;">
+                <h2>Fasilitas Lengkap</h2>
+                <p>Rumah Scopus Foundation memiliki Tfasilitas yang lengkap baik dari segi internet, tempat tinggal, makanan, suasana, dll yang dapat memenuhi kebutuhan anda dalam menyusun paper sehingga terasa nyaman. Kami juga menyediakan kolam renang
+                    yang dapat anda gunakan selama berada di lingkungan Rumah Scopus.
+                </p>    
+            </div>
+            <div class="col-md-6">
+                <img style="margin-right: 50px; margin-top:-20px; width:max-content; height:fit-content;" src="<?php echo base_url() . 'theme/images/fasilitas.png' ?>">
+            </div>
+        </div>
+
+    </div>
+</section>
+<!--============================= END =============================-->
+
+<!--============================= AGENDA  & ARTIKEL =============================-->
+<section class="event" style="margin-top: -80px;">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <h2>Artikel Terbaru</h2>
+                <hr size="6px" width="50%" align="left" color="orange" style="margin-top: -15px;">
+                <div class="event-img2">
+                <?php foreach ($berita->result() as $row) : ?>
+                <div class="row">
+                    <div class="col-sm-3"> 
+                        <img src="<?php echo base_url() . 'assets/images/' . $row->tulisan_gambar; ?>" class="img-fluid" alt="event-img">
+                    </div>
+                    <div class="col-sm-9 mt-2"> 
+                        <h3>
+                            <a href="<?php echo site_url('artikel');?>"><?php echo limit_words($row->tulisan_judul, 5) . '...'; ?></a>
+                        </h3>
+                      <span><i class="fa fa-calendar" aria-hidden="true"></i> <?php echo $row->tanggal;?> | <i class="fa fa-user" aria-hidden="true"></i> <?php echo $row->tulisan_author; ?> | <i class="fa fa-tags" aria-hidden="true"></i> <?php echo $row->tulisan_kategori_nama; ?></span> 
+                      <!--<p><?php echo limit_words($row->tulisan_isi,10).'...';?></p>-->
+                      <hr class="event_line">
+                    </div>
+                </div>
+                <?php endforeach;?>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2>Agenda Terbaru</h2>
+                        <hr size="6px" width="50%" align="left" color="orange" style="margin-top: -15px;">
+                      <?php foreach ($agenda->result() as $row):?>
+                        <div class="event_date">
+                            <div class="event-date-wrap">
+                                <p><?php echo date("d", strtotime($row->agenda_tanggal));?></p>
+                                <span><?php echo date("M. y", strtotime($row->agenda_tanggal));?></span>
+                            </div>
+                        </div>
+                        <div class="date-description">
+                            <h3><a href="<?php echo site_url('agenda');?>"><?php echo $row->agenda_nama;?></a></h3>
+                            <p><?php echo limit_words($row->agenda_deskripsi,10).'...';?></p>
+                            <hr class="event_line">
+                        </div>
+                        <?php endforeach;?>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
     </div>
 </section>
 <!--============================= END =============================-->
 
 <!--============================= ARTIKEL TERBARU =============================-->
-<section class="our_courses" >
+<!--<section class="our_courses" >
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -197,7 +290,6 @@
                         <div class="course-img-wrap">
                             <img src="<?php echo base_url() . 'assets/images/' . $row->tulisan_gambar; ?>" class="img-fluid" alt="courses-img">
                         </div>
-                        <!-- // end .course-img-wrap -->
                         <a href="<?php echo site_url('artikel/' . $row->tulisan_slug); ?>" class="course-box-content">
                             <h3 style="text-align:center;"><?php echo limit_words($row->tulisan_judul, 5) . '...'; ?></h3>
                         </a>
@@ -211,7 +303,7 @@
             </div>
         </div>
     </div>
-</section>
+</section>-->
 <!--============================= END =============================-->
 
 <!--============================= VIDEO =============================-->
@@ -231,7 +323,7 @@
                     <img src="<?php echo base_url() . 'theme/images/chart-icon_1.png' ?>" class="img-fluid" alt="chart_icon">
                 </div>
                 <div class="chart-text">
-                    <p><span class="counter">4</span>Trainer
+                    <p><span class="counter"><?php echo $tot_guru; ?></span>Trainer
                     </p>
                 </div>
             </div>
@@ -249,7 +341,7 @@
                     <img src="<?php echo base_url() . 'theme/images/chart-icon_3.png' ?>" class="img-fluid" alt="chart_icon">
                 </div>
                 <div class="chart-text">
-                    <p><span class="counter"><?php echo $tot_files; ?></span> Download
+                    <p><span class="counter">11</span> Cabang
                     </p>
                 </div>
             </div>

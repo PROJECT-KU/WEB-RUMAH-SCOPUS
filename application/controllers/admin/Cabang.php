@@ -1,5 +1,5 @@
 <?php
-class Siswa extends CI_Controller
+class Cabang extends CI_Controller
 {
 	function __construct()
 	{
@@ -8,7 +8,7 @@ class Siswa extends CI_Controller
 			$url = base_url('administrator');
 			redirect($url);
 		};
-		$this->load->model('m_siswa');
+		$this->load->model('m_cabang');
 		$this->load->model('m_pengguna');
 		$this->load->model('m_kelas');
 		$this->load->library('upload');
@@ -18,8 +18,12 @@ class Siswa extends CI_Controller
 	function index()
 	{
 		$x['kelas'] = $this->m_kelas->get_all_kelas();
-		$x['data'] = $this->m_siswa->get_all_siswa();
-		$this->load->view('admin/v_siswa', $x);
+		$x['data'] = $this->m_cabang->get_all_siswa();
+		$this->load->view('admin/template/v_header');
+		$this->load->view('admin/template/navbar');
+			$this->load->view('admin/template/head');
+			$this->load->view('admin/v_cabang', $x);
+			$this->load->view('admin/template/footer');
 	}
 
 	function simpan_siswa()
@@ -50,12 +54,12 @@ class Siswa extends CI_Controller
 				$jenkel = strip_tags($this->input->post('xjenkel'));
 				$kelas = strip_tags($this->input->post('xkelas'));
 
-				$this->m_siswa->simpan_siswa($nis, $nama, $jenkel, $kelas, $photo);
+				$this->m_cabang->simpan_siswa($nis, $nama, $jenkel, $kelas, $photo);
 				echo $this->session->set_flashdata('msg', 'success');
-				redirect('admin/siswa');
+				redirect('admin/cabang');
 			} else {
 				echo $this->session->set_flashdata('msg', 'warning');
-				redirect('admin/siswa');
+				redirect('admin/cabang');
 			}
 		} else {
 			$nis = strip_tags($this->input->post('xnis'));
@@ -63,9 +67,9 @@ class Siswa extends CI_Controller
 			$jenkel = strip_tags($this->input->post('xjenkel'));
 			$kelas = strip_tags($this->input->post('xkelas'));
 
-			$this->m_siswa->simpan_siswa_tanpa_img($nis, $nama, $jenkel, $kelas);
+			$this->m_cabang->simpan_siswa_tanpa_img($nis, $nama, $jenkel, $kelas);
 			echo $this->session->set_flashdata('msg', 'success');
-			redirect('admin/siswa');
+			redirect('admin/cabang');
 		}
 	}
 
@@ -102,12 +106,12 @@ class Siswa extends CI_Controller
 				$jenkel = strip_tags($this->input->post('xjenkel'));
 				$kelas = strip_tags($this->input->post('xkelas'));
 
-				$this->m_siswa->update_siswa($kode, $nis, $nama, $jenkel, $kelas, $photo);
+				$this->m_cabang->update_siswa($kode, $nis, $nama, $jenkel, $kelas, $photo);
 				echo $this->session->set_flashdata('msg', 'info');
-				redirect('admin/siswa');
+				redirect('admin/cabang');
 			} else {
 				echo $this->session->set_flashdata('msg', 'warning');
-				redirect('admin/siswa');
+				redirect('admin/cabang');
 			}
 		} else {
 			$kode = $this->input->post('kode');
@@ -116,9 +120,9 @@ class Siswa extends CI_Controller
 			$jenkel = strip_tags($this->input->post('xjenkel'));
 			$kelas = strip_tags($this->input->post('xkelas'));
 
-			$this->m_siswa->update_siswa_tanpa_img($kode, $nis, $nama, $jenkel, $kelas);
+			$this->m_cabang->update_siswa_tanpa_img($kode, $nis, $nama, $jenkel, $kelas);
 			echo $this->session->set_flashdata('msg', 'info');
-			redirect('admin/siswa');
+			redirect('admin/cabang');
 		}
 	}
 
@@ -128,8 +132,8 @@ class Siswa extends CI_Controller
 		$gambar = $this->input->post('gambar');
 		$path = './assets/images/' . $gambar;
 		unlink($path);
-		$this->m_siswa->hapus_siswa($kode);
+		$this->m_cabang->hapus_siswa($kode);
 		echo $this->session->set_flashdata('msg', 'success-hapus');
-		redirect('admin/siswa');
+		redirect('admin/cabang');
 	}
 }

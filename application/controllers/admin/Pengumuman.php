@@ -16,7 +16,11 @@ class Pengumuman extends CI_Controller
 	function index()
 	{
 		$x['data'] = $this->m_pengumuman->get_all_pengumuman();
-		$this->load->view('admin/v_pengumuman', $x);
+		$this->load->view('admin/template/v_header');
+		$this->load->view('admin/template/navbar');
+			$this->load->view('admin/template/head');
+			$this->load->view('admin/v_pengumuman', $x);
+			$this->load->view('admin/template/footer');
 	}
 
 	function simpan_pengumuman()

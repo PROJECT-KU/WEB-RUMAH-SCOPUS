@@ -17,7 +17,11 @@ class Guru extends CI_Controller
 	function index()
 	{
 		$x['data'] = $this->m_guru->get_all_guru();
-		$this->load->view('admin/v_guru', $x);
+		$this->load->view('admin/template/v_header');
+		$this->load->view('admin/template/navbar');
+			$this->load->view('admin/template/head');
+			$this->load->view('admin/v_guru', $x);
+			$this->load->view('admin/template/footer');
 	}
 
 	function simpan_guru()
