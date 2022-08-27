@@ -76,17 +76,8 @@
                     artikel sesuai standar Internasional. </p>
 
             </div>
-            <style>
-                .avatar {
-                    vertical-align: middle;
-                    width: 30px;
-                    height: 360px;
-                    border-radius: 50%;
-
-                }
-            </style>
             <div class="col-md-5 mt-5">
-                <img src="<?php echo base_url() . 'theme/images/logo/logorsc.png' ?>">
+                <img src="<?php echo base_url() . 'theme/images/logo/logo.png' ?>">
             </div>
         </div>
     </div>
@@ -113,7 +104,7 @@
 <!--============================= END ABOUT =============================-->
 
 <!--============================= LAYANAN KAMI =============================-->
-<section class="our_courses" style="background-color: white; margin-top:-50px;">
+<section class="our_courses" style="background-color: #F5FAFF; margin-top:-50px;">
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3" style="position: relative;">
@@ -181,45 +172,45 @@
 <!--============================= END =============================-->
 
 <!--============================= MENGAPA MEMILIH KAMI =============================-->
-<section class="clearfix about about-style2" style="margin-top:-100px ;"> 
+<section class="welcome_about">
     <div class="container">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-7">
                 <h2>Trainer Profesional</h2>
-                <p>Rumah Scopus Foundation memiliki Trainer yang sudah berpengalaman dan profesional mengenai paper. Trainer kami akan membantu anda untuk menyelesaikan atau submit paper hingga 
-                    internasional yang terindeks scopus.</p>    
+                    <p>Rumah Scopus Foundation memiliki Trainer yang sudah berpengalaman dan profesional menulis paper. Trainer kami akan membantu anda untuk menyelesaikan paper sampai submit dan publish hingga terindeks Scopus.</p>
             </div>
-            <div class="col-md-4">
-                <img style="margin-right: 50px; margin-top:-20px; width:max-content; height:fit-content;" src="<?php echo base_url() . 'theme/images/trainer.png' ?>">
+            <div class="col-md-5 mt-5">
+                <img src="<?php echo base_url() . 'theme/images/trainer.png' ?>">
             </div>
         </div>
 
-        <div class="row mt-5">
-            <div class="col-md-6" style="position: relative;">
-                <img style="margin-right: 50px; margin-top:-20px; width:max-content; height:fit-content;" src="<?php echo base_url() . 'theme/images/biaya.png' ?>">
+        
+        <div class="row">
+        <div class="col-md-5">
+                <img src="<?php echo base_url() . 'theme/images/biaya.png' ?>">
             </div>
-            <div class="col-md-6">
-                <h2>Biaya Terjangkau</h2>
-                <p>Dengan harga yang terjangkau anda dapat mengikuti program yang di berikan oleh Rumah Scopus tanpa menguras kantong. Meskipun harga terjangkau, tetapi kualitas kami
-                    utamakan baik pelayanan maupun fasilitas yang kami berikan kepada anda.
+            <div class="col-md-7">
+            <h2>Biaya Terjangkau</h2>
+                <p>Dengan harga yang terjangkau anda dapat mengikuti program yang diberikan oleh Rumah Scopus tanpa menguras kantong. Meskipun harga terjangkau, tetapi kualitas kami utamakan baik pelayanan maupun fasilitas yang kami berikan kepada anda.
                 </p>
             </div>
-        </div>
-
-        <div class="row mt-5">
-            <div class="col-md-6" style="position: relative;">
-                <h2>Fasilitas Lengkap</h2>
-                <p>Rumah Scopus Foundation memiliki Tfasilitas yang lengkap baik dari segi internet, tempat tinggal, makanan, suasana, dll yang dapat memenuhi kebutuhan anda dalam menyusun paper sehingga terasa nyaman. Kami juga menyediakan kolam renang
+            
+            <div class="col-md-7">
+                <h2>Trainer Profesional</h2>
+                <p>Rumah Scopus Foundation memiliki fasilitas yang lengkap baik dari segi internet, tempat tinggal, makanan ala kampung, suasana sejuk alami yang dapat memenuhi mendukung kenyamanan dalam menyusun paper. Kami juga menyediakan kolam renang 
                     yang dapat anda gunakan selama berada di lingkungan Rumah Scopus.
                 </p>    
             </div>
-            <div class="col-md-6">
-                <img style="margin-right: 50px; margin-top:-20px; width:max-content; height:fit-content;" src="<?php echo base_url() . 'theme/images/fasilitas.png' ?>">
+            <div class="col-md-5">
+                <img src="<?php echo base_url() . 'theme/images/fasilitas.png' ?>">
             </div>
         </div>
 
+        </div>
     </div>
 </section>
+
+
 <!--============================= END =============================-->
 
 <!--============================= AGENDA  & ARTIKEL =============================-->
@@ -261,6 +252,11 @@
                         </div>
                         <div class="date-description">
                             <h3><a href="<?php echo site_url('agenda');?>"><?php echo $row->agenda_nama;?></a></h3>
+                            <span style="color: orange; margin-top:-30px;"><i class="fa fa-calendar" aria-hidden="true"></i> <?php echo date("d M y", strtotime($row->agenda_mulai));?> s/d <?php echo date("d M y", strtotime($row->agenda_selesai));?> | <i class="fa fa-map-marker" aria-hidden="true"></i> <?php echo $row->agenda_tempat;?> | <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-alarm" viewBox="0 0 16 16">
+                                    <path d="M8.5 5.5a.5.5 0 0 0-1 0v3.362l-1.429 2.38a.5.5 0 1 0 .858.515l1.5-2.5A.5.5 0 0 0 8.5 9V5.5z"/>
+                                    <path d="M6.5 0a.5.5 0 0 0 0 1H7v1.07a7.001 7.001 0 0 0-3.273 12.474l-.602.602a.5.5 0 0 0 .707.708l.746-.746A6.97 6.97 0 0 0 8 16a6.97 6.97 0 0 0 3.422-.892l.746.746a.5.5 0 0 0 .707-.708l-.601-.602A7.001 7.001 0 0 0 9 2.07V1h.5a.5.5 0 0 0 0-1h-3zm1.038 3.018a6.093 6.093 0 0 1 .924 0 6 6 0 1 1-.924 0zM0 3.5c0 .753.333 1.429.86 1.887A8.035 8.035 0 0 1 4.387 1.86 2.5 2.5 0 0 0 0 3.5zM13.5 1c-.753 0-1.429.333-1.887.86a8.035 8.035 0 0 1 3.527 3.527A2.5 2.5 0 0 0 13.5 1z"/>
+                                    </svg> <?php echo $row->agenda_waktu;?>
+                            </span>
                             <p><?php echo limit_words($row->agenda_deskripsi,10).'...';?></p>
                             <hr class="event_line">
                         </div>
@@ -307,11 +303,21 @@
 <!--============================= END =============================-->
 
 <!--============================= VIDEO =============================-->
-<div class="container1 row ">
+<section class="welcome_about" style="background-color: #F5FAFF; margin-top:-50px;">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7">
+                <blockquote> "Dengan Adanya Rumah Scopus saya menjadi terbantu dan menjadi terindeks scopus" </blockquote>
+                    <a href="https://www.youtube.com/watch?v=y1_xtTu4wGI&t=82s"><button type="button" class="btn btn-info mt-3 mb-5">Lihat Video <i class="fa fa-play" aria-hidden="true"></i></button></a>
+            </div>
+            <div class="col-md-5">
+                <img style="border-radius: 10%;" src="<?php echo base_url() . 'theme/images/bapak1.jpg' ?>">
+                <h3>Dr. Jumintono Suwardi Joyo Sumarto, M.Pd</h3>
+            </div>
+        </div>
+    </div>
+</section>
 
-    <iframe width="950" height="450" src="https://www.youtube.com/embed/5UN5E1MnpPE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-</div>
 <!--============================= END =============================-->
 
 <!--============================= INFO CHART =============================-->

@@ -18,7 +18,7 @@ class Trainer extends CI_Controller
 			$offset = $page;
 		endif;
 		$limit = 8;
-		$config['base_url'] = base_url() . 'guru/index/';
+		$config['base_url'] = base_url() . 'trainer/index/';
 		$config['total_rows'] = $jum->num_rows();
 		$config['per_page'] = $limit;
 		$config['uri_segment'] = 3;

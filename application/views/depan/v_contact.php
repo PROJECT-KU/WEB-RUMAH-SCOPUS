@@ -61,8 +61,14 @@
                                     <h6>Telepon dan WhatsApp</h6>
                                     <p>(+62) 812-2688-32808</p>
                                 </div>
+                                <!--<div class="contact-details" style="width: 100%; margin-right:10px;">
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3954.340076630157!2d110.35291753646469!3d-7.646531319886422!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a5f6ce402cb15%3A0x6139423d4b76fbf8!2sRumah%20Scopus!5e0!3m2!1sid!2sid!4v1607779122453!5m2!1sid!2sid" width="350" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                                </div>-->
                             </div>
                         </div>
+
+                        
+
                     </div>
                 </div>
             </div>

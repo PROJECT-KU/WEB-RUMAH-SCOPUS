@@ -30,7 +30,7 @@
             <div class="col-md-3">
                 <div class="foot-logo">
                     <a href="<?php echo site_url(); ?>">
-                        <img class="img img-responsive" width="250px;" src="<?php echo base_url() . 'theme/images/logo/logorsc.png' ?>" class="img-fluid" alt="footer_logo">
+                        <img class="img img-responsive" width="250px;" src="<?php echo base_url() . 'theme/images/logo/logo.png' ?>" class="img-fluid" alt="footer_logo">
                     </a>
                     <p>copyright © <?php echo date('Y'); ?>  by <a href="" target="_blank" style="color: orange;">Rumah Scopus Foundation</a>. <br>All rights reserved.</p>
 

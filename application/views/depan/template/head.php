@@ -33,6 +33,7 @@
     <link rel="stylesheet" type="text/css" href="<?php echo base_url() . 'theme/css/set2.css' ?>" />
     <!-- Masonry Gallery -->
     <link href="<?php echo base_url() . 'theme/css/animated-masonry-gallery.css' ?>" rel="stylesheet" type="text/css" />
+   
     <style>
         .sharePopup {
             font-size: 11px;
@@ -51,6 +52,8 @@
         return implode(" ", array_splice($words, 0, $word_limit));
     }
     ?>
+
+
 </head>
 
 

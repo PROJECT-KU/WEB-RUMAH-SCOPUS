@@ -1,11 +1,11 @@
-<link rel="shorcut icon" type="text/css" href="<?php echo base_url() . 'theme/images/logo/favicon.ico' ?>">
 <section class="welcome_about">
     <div class="container">
         <div class="row">
             <div class="col-md-7">
-                <h2 class="h1">Tentang Kami</h2>
+                <h2 >Tentang Kami</h2>
                 <p>Rumah Scopus (RSc) adalah penyedia layanan jasa di bidang pendampingan penyusunan artikel ilmiah dan publikasi ke jurnal terindeks Scopus. Pendampingan dilaksanakan secara online dan offline secara personal dan kelompok atau institusi. Rumah Scopus berdiri pada 20 Februari 2019 yang berpusat di Yogyakarta. RSc hadir atas kegelisahan tentang publikasi jurnal terindeks Scopus. Strategi utama RSc menggabungkan teknologi,
                     ilmu pengetahuan dan pengalaman dalam menyusun artikel sesuai standar Internasional. </p>
+
             </div>
             <style>
                 .avatar {
@@ -17,35 +17,69 @@
                 }
             </style>
             <div class="col-md-5">
-                <img style="width : 400px;" src="<?php echo base_url() . 'theme/images/logo/scopus.png' ?>">
+                <img src="<?php echo base_url() . 'theme/images/logo/scopus.png' ?>">
             </div>
         </div>
     </div>
 </section>
 <!--//END WELCOME TITLE -->
 
-<!-- MAPS -->
-<style>
-    html,
-    body1 {
-        height: 100%
-    }
+<section class="welcome_about mb-5" style="margin-top: -50px; background-color:#F5FAFF;" >
+    <div class="container" style="position: relative;">
+        <div class="row" >
+            <div class="col-md-5" style="margin: 5px;">
+                <center><figure class="clear"><img style="width: 100px; height: 100px; border-radius: 50%;" src=" <?php echo base_url() .'theme/about/images/demo/VISI.png'?>" alt=""></center>
+                <div class="row">
+                    <div class="card mt-3 kotak">
+                        <div class="card-body" style="margin: 10px;">
+                            <blockquote >Menjadi lembaga profesional bagi peneliti dalam publikasi karya ilmiah.</blockquote>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6" style="margin: 5px;">
+                <center><figure class="clear"><img style="width: 100px; height: 100px; border-radius: 50%;" src=" <?php echo base_url() .'theme/about/images/demo/MISI.png'?>" alt=""></center>
+                <div class="row">
+                    <div class="card mt-3 kotak">
+                        <div class="card-body" style="margin: 10px;">
+                            <blockquote >
+                                <li>menyelenggarakan pendampiangan penulisan karya ilmiah</li>
+                                <li>menyelenggarakan pelatihan penulisan karya ilmiah</li>
+                                <li>menyelenggarakan kegiatan-kegiatan yang berkaitan dengan publikasi karya ilmiah</li>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
-    .container1 {
-        margin-right: auto;
-        margin-left: auto;
-        margin-bottom: 40px;
-        margin-top: 40px;
-        justify-content: center;
-        align-items: center;
-    }
 
-    .box {
-        height: 100px;
-        width: 100px;
 
-    }
-</style>
-<div class="container1 row ">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3954.340076630157!2d110.35291753646469!3d-7.646531319886422!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a5f6ce402cb15%3A0x6139423d4b76fbf8!2sRumah%20Scopus!5e0!3m2!1sid!2sid!4v1607779122453!5m2!1sid!2sid" width="950" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-</div>
+
+<!-- VISI & MISI -->
+<!--<div class="wrapper coloured" id="About">
+    <section id="testimonials" class="hoc container clear">
+        <div class="section-title text-center mt-4">
+            <h2>VISI & MISI</h2>
+        </div>
+        <article class="one_half first">
+            <figure class="clear"><img style="width: 100px; height: 100px" src=" <?php echo base_url() .'theme/about/images/demo/VISI.png'?>" alt="">
+                <figcaption>
+                     <h6 class="heading">VISI</h6>
+                    <em>Adipiscing fusce eu velit</em></figcaption>
+            </figure>
+            <blockquote>Membentuk jiwa-jiwa bertalenta yang akan terus bercahaya menyinari diri untuk membangun negeri yang maju di dunia digital.</blockquote>
+        </article>
+        <article class="one_half">
+            <figure class="clear"><img style="width: 100px; height: 100px;" src="<?php echo base_url() . 'theme/about/images/demo/MISI.png'?>" alt="">
+                <figcaption>
+                    <h6 class="heading">MISI</h6>
+                    <em>Mauris erat aliquam leo</em></figcaption>
+            </figure>
+            <blockquote>Membangun diri dengan jiwa yang bertalenta untuk lebih maju yang selalu berjalan beriringan bersama Tendance Digital.</blockquote>
+        </article>
+    </section>
+</div>-->
+<!-- END -->
