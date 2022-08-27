@@ -117,7 +117,13 @@
                     <img style="background-color: rgba(22, 160, 133, 0.1); " src="<?php echo base_url() . 'theme/images/logo/webinar1.png' ?>"> 
                         <div class="card-body">
                             <center><h5 class="card-title mt-3 mb-2" ><b>Webinar Scopus Training</b></h5></center>
+<<<<<<< HEAD
                             <p style="margin:5px;">Pelayanan kegiatan seminar yang dilakukan secara online atau offline yang di lakukan oleh pihak scopus dalam melayani pendampingan jurnal</p>
+=======
+
+                            <p style="margin:5px;">Pelayanan kegiatan seminar yang dilakukan secara online atau offline yang di lakukan oleh pihak scopus dalam melayani pendampingan jurnal</p>
+
+>>>>>>> 5f95e3d4591618fe9ce4b1aff857aef34a334b02
                             <center><a href="https://api.whatsapp.com/send?phone=+6281226883280&text=Hallo%20kak!%20Saya%20mau%20pesan%20program%20Webinar%20Scopus%20Training." class="btn btn-primary mb-2" style="color:white;">Pesan Sekarang!</a></center>
                         </div>
                 </div>
