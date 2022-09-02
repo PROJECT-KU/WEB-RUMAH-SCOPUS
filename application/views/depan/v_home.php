@@ -1,3 +1,5 @@
+
+
 <!--============================= HEADER =============================-->
 <section>
     <div class="slider_img layout_two">
@@ -9,44 +11,38 @@
             </ol>
             <div class="carousel-inner" role="listbox">
                 <div class="carousel-item active">
-                    <img style="width: 380px; height:500px; filter:brightness(50%)" class="d-block" src="<?php echo base_url() . 'theme/images/berfikir.jpg' ?>" alt="First slide">
+                    <img style="width: 380px; height:500px; filter:brightness(50%)" class="d-block" src="<?php echo base_url() . 'theme/images/slider/1.jpeg' ?>" alt="First slide">
                     <div class="carousel-caption d-md-block background">
                         <div class="slider_title transbox">
-
                             <h1><strong>Simpel &amp; Praktis</strong></h1>
-
                             <h4 style="color: white; font-size:24px;">Training menggunakan pendekatan learning by doing<br> menerapkan cara-cara praktis dan simpel</h4>
-
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img style="width: 380px; height:500px; filter:brightness(50%)" class="d-block" src="<?php echo base_url() . 'theme/images/slider2.jpeg' ?>" alt="Second slide">
+                    <img style="width: 380px; height:500px; filter:brightness(50%)" class="d-block" src="<?php echo base_url() . 'theme/images/slider/2.jpeg' ?>" alt="Second slide">
                     <div class="carousel-caption d-md-block">
                         <div class="slider_title">
                             <h1><strong>Trainer Berkomitmen Tinggi</strong></h1>
                             <h4 style="color: white; font-size:24px;">Memiliki pengalaman terbaik dalam proses penulisan artikel terindeks Scopus</h4>
-
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img style="width: 380px; height:500px; filter:brightness(50%)" class="d-block" src="<?php echo base_url() . 'theme/images/learn.jpg' ?>" alt="Third slide">
+                    <img style="width: 380px; height:500px; filter:brightness(50%)" class="d-block" src="<?php echo base_url() . 'theme/images/slider/4.jpeg' ?>" alt="Third slide">
                     <div class="carousel-caption d-md-block">
                         <div class="slider_title">
                             <h1><strong>Learning by Objective</strong></h1>
                             <h4 style="color: white; font-size:24px;">Training memiliki capaian akhir yang jelas dan terukur.<br> Setiap sesi pertemuan peserta dipacu untuk mencapai target yang jelas</h4>
-
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img style="width: 380px; height:500px; filter:brightness(50%)" class="d-block" src="<?php echo base_url() . 'theme/images/teknologi.jpg' ?>" alt="Fourth slide">
+                    <img style="width: 380px; height:500px; filter:brightness(50%)" class="d-block" src="<?php echo base_url() . 'theme/images/slider/5.jpeg' ?>" alt="Fourth slide">
                     <div class="carousel-caption d-md-block">
                         <div class="slider_title">
                             <h1><strong>Kecepatan dan Digital Tools</strong></h1>
                             <h4 style="color: white; font-size:24px;">Mengacu pada norma milenial yaitu speed.<br> Membiasakan penggunaan alat-alat digital </h4>
-
                         </div>
                     </div>
                 </div>
@@ -65,11 +61,12 @@
 <!--============================= END =============================-->
 
 <!--============================= ABOUT =============================-->
-<section class="welcome_about">
+<!--<section class="welcome_about">
     <div class="container">
         <div class="row">
             <div class="col-md-7">
                 <h2 >Tentang Kami</h2>
+                <hr size="6px" width="38%" align="left" color="orange" style="margin-top: -15px;">
                 <p>Rumah Scopus (RSc) adalah penyedia layanan jasa di bidang pendampingan penyusunan artikel ilmiah dan publikasi ke jurnal terindeks Scopus.
                     Pendampingan dilaksanakan secara online dan offline secara personal dan kelompok atau institusi. Rumah Scopus berdiri pada 20 Februari 2019 yang berpusat di Yogyakarta.
                     RSc hadir atas kegelisahan tentang publikasi jurnal terindeks Scopus. Strategi utama RSc menggabungkan teknologi, ilmu pengetahuan dan pengalaman dalam menyusun
@@ -81,7 +78,7 @@
             </div>
         </div>
     </div>
-</section>
+</section>-->
 
 
 <!--<section class="clearfix about about-style2">
@@ -109,6 +106,7 @@
         <div class="row">
             <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3" style="position: relative;">
                 <h2>Layanan Kami</h2>
+                <hr size="6px" width="100%" align="left" color="orange" style="margin-top: -15px;">
             </div>
         </div>
         <div class="row">
@@ -116,15 +114,16 @@
                 <div class="card courses_box mb-4">
                     <img style="background-color: rgba(22, 160, 133, 0.1); " src="<?php echo base_url() . 'theme/images/logo/webinar1.png' ?>"> 
                         <div class="card-body">
-                            <center><h5 class="card-title mt-3 mb-2" ><b>Webinar Scopus Training</b></h5></center>
-<<<<<<< HEAD
-                            <p style="margin:5px;">Pelayanan kegiatan seminar yang dilakukan secara online atau offline yang di lakukan oleh pihak scopus dalam melayani pendampingan jurnal</p>
-=======
-
-                            <p style="margin:5px;">Pelayanan kegiatan seminar yang dilakukan secara online atau offline yang di lakukan oleh pihak scopus dalam melayani pendampingan jurnal</p>
-
->>>>>>> 5f95e3d4591618fe9ce4b1aff857aef34a334b02
-                            <center><a href="https://api.whatsapp.com/send?phone=+6281226883280&text=Hallo%20kak!%20Saya%20mau%20pesan%20program%20Webinar%20Scopus%20Training." class="btn btn-primary mb-2" style="color:white;">Pesan Sekarang!</a></center>
+                            <center>
+                                <h5 class="card-title mt-3" ><b>Webinar Scopus Training</b></h5>
+                            </center>
+                            <hr size="6px" width="50%" align="center" color="orange">
+                            <p style="margin-left:15px;">Pelayanan kegiatan seminar yang dilakukan secara online atau offline yang di lakukan oleh pihak scopus dalam melayani pendampingan jurnal</p>
+                            <center>
+                                <a href="https://api.whatsapp.com/send?phone=+6281226883280&text=Hallo%20kak!%20Saya%20mau%20pesan%20program%20Webinar%20Scopus%20Training." class="btn btn-warning mb-3 mt-3" style="color:white; border-radius:30px; background-color:orange;">
+                                    Pesan Sekarang!
+                                </a>
+                            </center>
                         </div>
                 </div>
             </div>
@@ -133,9 +132,16 @@
                 <div class="card courses_box mb-4">
                     <img style="background-color:  rgba(213, 15, 37, 0.1)" src="<?php echo base_url() . 'theme/images/logo/camp.png' ?>"> 
                         <div class="card-body">
-                            <center><h5 class="card-title mt-3 mb-2" ><b>Scopus Camp</b></h5></center>
-                            <p style="margin:5px;">Memberikan pelatihan penulisan paper yang berjalan selama kurun waktu tertentu. Scopus Camp ini bertempat di scopus pusat yang berada di Turi, Sleman dan cabang Rumah Scopus</p>
-                            <center><a href="https://api.whatsapp.com/send?phone=+6281226883280&text=Hallo%20kak!%20Saya%20mau%20pesan%20program%20Scopus%20Camp." class="btn btn-primary mb-2" style="color:white;">Pesan Sekarang!</a></center>
+                            <center>
+                                <h5 class="card-title mt-3" ><b>Scopus Camp</b></h5>
+                            </center>
+                            <hr size="6px" width="50%" align="center" color="orange">
+                            <p style="margin-left:15px;">Memberikan pelatihan penulisan paper yang berjalan selama kurun waktu tertentu. Scopus Camp ini bertempat di scopus pusat yang berada di Turi, Sleman dan cabang Rumah Scopus</p>
+                            <center>
+                                <a href="https://api.whatsapp.com/send?phone=+6281226883280&text=Hallo%20kak!%20Saya%20mau%20pesan%20program%20Scopus%20Camp." class="btn btn-warning mb-3 mt-3" style="color:white; border-radius:30px; background-color:orange;">
+                                     Pesan Sekarang!
+                                </a>
+                            </center>
                         </div>
                 </div>
             </div>
@@ -144,9 +150,16 @@
                 <div class="card courses_box mb-4"> 
                     <img style="background-color:  rgba(250, 188, 9, 0.1)" src="<?php echo base_url() . 'theme/images/logo/toga.png' ?>"> 
                         <div class="card-body">
-                            <center><h5 class="card-title mt-3 mb-2" ><b>Pendampingan Nyata Percepatan Guru Besar (PNP GB)</b></h5></center>
-                            <p style="margin:5px;">Memberikan layanan dalam penyusunan paper yang bereputasi internasional yang terindeks Scopus.</p>
-                            <center><a href="https://api.whatsapp.com/send?phone=+6281226883280&text=Hallo%20kak!%20Saya%20mau%20pesan%20program%20Pendampingan%20Nyata%20Percepatan%20Guru%20Besar." class="btn btn-primary mb-2" style="color:white;">Pesan Sekarang!</a></center>
+                            <center>
+                                <h5 class="card-title mt-3" ><b>Program Nyata Percepatan Guru Besar (PNP GB)</b></h5>
+                            </center>
+                            <hr size="6px" width="50%" align="center" color="orange">
+                            <p style="margin-left:15px;">Memberikan layanan dalam penyusunan paper yang bereputasi internasional yang terindeks Scopus.</p>
+                            <center>
+                                <a href="https://api.whatsapp.com/send?phone=+6281226883280&text=Hallo%20kak!%20Saya%20mau%20pesan%20program%20Pendampingan%20Nyata%20Percepatan%20Guru%20Besar." class="btn btn-warning mb-3 mt-3" style="color:white; border-radius:30px; background-color:orange;">
+                                    Pesan Sekarang!
+                                </a>
+                            </center>
                         </div>
                 </div>
             </div>
@@ -164,11 +177,18 @@
 
             <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
                 <div class="card courses_box mb-4">
-                    <img style="background-color:rgba(187, 120, 36, 0.1)" src="<?php echo base_url() . 'theme/images/logo/Waktu.png' ?>"> 
+                    <img style="background-color:rgba(187, 120, 36, 0.1)" src="<?php echo base_url() . 'theme/images/logo/waktu.png' ?>"> 
                         <div class="card-body">
-                            <center><h5 class="card-title mt-3 mb-2" ><b>Multi Entri Multi Exit (MeMe)</b></h5></center>
-                            <p style="margin:5px;">memberikan layanan dalam penyusunan paper, dengan waktu yang fleksibel, dengan trainer yang profesional dan berpengalam.</p>
-                            <center><a href="https://api.whatsapp.com/send?phone=+6281226883280&text=Hallo%20kak!%20Saya%20mau%20pesan%20program%20Multi%20Entri%20Multi%20Exit." class="btn btn-primary mb-2" style="color:white;">Pesan Sekarang!</a></center>
+                            <center>
+                                <h5 class="card-title mt-3" ><b>Multi Entri Multi Exit (MeMe)</b></h5>
+                            </center>
+                            <hr size="6px" width="50%" align="center" color="orange">
+                            <p style="margin-left:15px;">memberikan layanan dalam penyusunan paper, dengan waktu yang fleksibel, dengan trainer yang profesional dan berpengalam.</p>
+                            <center>
+                                <a href="https://api.whatsapp.com/send?phone=+6281226883280&text=Hallo%20kak!%20Saya%20mau%20pesan%20program%20Multi%20Entri%20Multi%20Exit." class="btn btn-warning mb-3 mt-3" style="color:white; border-radius:30px; background-color:orange;">
+                                    Pesan Sekarang!
+                                </a>
+                            </center>
                         </div>
                 </div>
             </div>
@@ -192,7 +212,7 @@
 
         
         <div class="row">
-        <div class="col-md-5">
+            <div class="col-md-5">
                 <img src="<?php echo base_url() . 'theme/images/biaya.png' ?>">
             </div>
             <div class="col-md-7">
@@ -200,15 +220,18 @@
                 <p>Dengan harga yang terjangkau anda dapat mengikuti program yang diberikan oleh Rumah Scopus tanpa menguras kantong. Meskipun harga terjangkau, tetapi kualitas kami utamakan baik pelayanan maupun fasilitas yang kami berikan kepada anda.
                 </p>
             </div>
-            
+        </div>
+
+        <div class="row">
             <div class="col-md-7">
-                <h2>Trainer Profesional</h2>
+                <h2>Fasilitas Lengkap</h2>
                 <p>Rumah Scopus Foundation memiliki fasilitas yang lengkap baik dari segi internet, tempat tinggal, makanan ala kampung, suasana sejuk alami yang dapat memenuhi mendukung kenyamanan dalam menyusun paper. Kami juga menyediakan kolam renang 
                     yang dapat anda gunakan selama berada di lingkungan Rumah Scopus.
                 </p>    
             </div>
             <div class="col-md-5">
                 <img src="<?php echo base_url() . 'theme/images/fasilitas.png' ?>">
+            </div>
             </div>
         </div>
 
@@ -314,16 +337,17 @@
         <div class="row">
             <div class="col-md-7">
                 <blockquote> "Dengan Adanya Rumah Scopus saya menjadi terbantu dan menjadi terindeks scopus" </blockquote>
-                    <a href="https://www.youtube.com/watch?v=y1_xtTu4wGI&t=82s"><button type="button" class="btn btn-info mt-3 mb-5">Lihat Video <i class="fa fa-play" aria-hidden="true"></i></button></a>
+                    <a href="https://www.youtube.com/watch?v=y1_xtTu4wGI&t=82s" class="btn btn-warning mb-3 mt-3" style="color:white; border-radius:30px; background-color:orange;">
+                        Lhat Video <i class="fa fa-play" aria-hidden="true"></i>
+                    </a>
             </div>
             <div class="col-md-5">
                 <img style="border-radius: 10%;" src="<?php echo base_url() . 'theme/images/bapak1.jpg' ?>">
-                <h3>Dr. Jumintono Suwardi Joyo Sumarto, M.Pd</h3>
+                <h4 align="center">Dr. Jumintono Suwardi Joyo Sumarto, M.Pd</h4>
             </div>
         </div>
     </div>
 </section>
-
 <!--============================= END =============================-->
 
 <!--============================= INFO CHART =============================-->
@@ -376,6 +400,7 @@
         <div class="row">
             <div class="col-md-12">
                 <h2>Testimonial</h2>
+                <hr size="50%" width="20%" align="center" color="orange" style="margin-top: -15px;">
             </div>
             <div class="col-md-12">
                 <div class="single-item">

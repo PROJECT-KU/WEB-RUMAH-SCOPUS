@@ -52,7 +52,13 @@
         return implode(" ", array_splice($words, 0, $word_limit));
     }
     ?>
-
+<!-- box shadow -->
+<style>
+    .kotak{
+        box-shadow: 20px 20px 50px grey;
+    }
+    </style>
+<!-- end -->
 
 </head>
 

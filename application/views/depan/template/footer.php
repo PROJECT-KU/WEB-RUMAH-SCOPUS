@@ -1,3 +1,4 @@
+<script src="https://cdn.jsdelivr.net/npm/vue@2.7.8"></script>
 <style>
     .float {
         position: fixed;
@@ -42,9 +43,9 @@
                     <ul>
                         <li><a href="<?php echo site_url(); ?>">Beranda</a></li>
                         <li><a href="<?php echo site_url('trainer'); ?>">Trainer</a></li>
-                        <li><a href="<?php echo site_url('pengumuman'); ?>">Pengumuman</a></li>
-                        <li><a href="<?php echo site_url('about'); ?>">Tentang</a></li>
-                        <li><a href="<?php echo site_url('artikel'); ?>">Blog </a></li>
+                        <li><a href="<?php echo site_url('agenda'); ?>">Agenda</a></li>
+                        <li><a href="<?php echo site_url('cabang'); ?>">Cabang</a></li>
+                        <li><a href="<?php echo site_url('artikel'); ?>">Artikel</a></li>
                     </ul>
                 </div>
             </div>
@@ -54,7 +55,7 @@
                     <ul>
                         <li><a href="<?php echo site_url('#'); ?>">Webinar Scopus Training</a></li>
                         <li><a href="<?php echo site_url('#'); ?>">Scopus Camp</a></li>
-                        <li><a href="<?php echo site_url('#'); ?>">Pendampingan Nyata Percepatan Guru Besar (PNP GB)</a></li>
+                        <li><a href="<?php echo site_url('#'); ?>">Program Nyata Percepatan Guru Besar (PNP GB)</a></li>
                         <li><a href="<?php echo site_url('#'); ?>">Multi Entri Multi Exit (MeMe)</a></li>
                     </ul>
                 </div>
