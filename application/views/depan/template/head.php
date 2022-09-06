@@ -60,6 +60,20 @@
     </style>
 <!-- end -->
 
+<!-- gallery -->
+
+
+<!--<link href="<?php echo base_url() . 'theme/galeri/css/bootstrap.min.css' ?>" rel="stylesheet">-->
+
+<link href="<?php echo base_url() . 'theme/galeri/css/boxicon.min.css' ?>" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="<?php echo base_url() . 'theme/galeri/css/templatemo.css' ?>">
+
+<link rel="stylesheet" href="<?php echo base_url() . 'theme/galeri/css/custom.css' ?>">
+
+<!-- end -->
+
 </head>
 
 

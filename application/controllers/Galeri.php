@@ -20,7 +20,7 @@ class Galeri extends CI_Controller
 	}
 	function album()
 	{
-		$idalbum = $this->uri->segment(3);
+		$idalbum = $this->uri->segment(6);
 		$x['alb'] = $this->m_album->get_all_album();
 		$x['data'] = $this->m_galeri->get_galeri_by_album_id($idalbum);
 		$this->load->view('depan/template/navbar');

@@ -101,3 +101,36 @@
 
 
 <!--============================= END HOME =============================-->
+
+<!-- galeri -->
+<!--<script src="<?php echo base_url() . 'theme/galeri/js/bootstrap.bundle.min.js' ?>"></script>
+  
+    <script src="<?php echo base_url() . 'theme/galeri/js/jquery.min.js' ?>"></script>
+    
+    <script src="<?php echo base_url() . 'theme/galeri/js/isotope.pkgd.js' ?>"></script>
+    
+    <script>
+        $(window).load(function() {
+            // init Isotope
+            var $projects = $('.projects').isotope({
+                itemSelector: '.project',
+                layoutMode: 'fitRows'
+            });
+            $(".filter-btn").click(function() {
+                var data_filter = $(this).attr("data-filter");
+                $projects.isotope({
+                    filter: data_filter
+                });
+                $(".filter-btn").removeClass("active");
+                $(".filter-btn").removeClass("shadow");
+                $(this).addClass("active");
+                $(this).addClass("shadow");
+                return false;
+            });
+        });
+    </script>
+   
+    <script src="<?php echo base_url() . 'theme/galeri/js/templatemo.js' ?>"></script>
+   
+    <script src="<?php echo base_url() . 'theme/galeri/js/custom.js' ?>"></script>-->
+<!-- end -->
