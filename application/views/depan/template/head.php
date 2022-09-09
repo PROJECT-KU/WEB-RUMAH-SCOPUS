@@ -60,19 +60,76 @@
     </style>
 <!-- end -->
 
-<!-- gallery -->
-
-
+<!--============================= GALLERY =============================-->
 <!--<link href="<?php echo base_url() . 'theme/galeri/css/bootstrap.min.css' ?>" rel="stylesheet">-->
-
 <link href="<?php echo base_url() . 'theme/galeri/css/boxicon.min.css' ?>" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
-
 <link rel="stylesheet" href="<?php echo base_url() . 'theme/galeri/css/templatemo.css' ?>">
-
 <link rel="stylesheet" href="<?php echo base_url() . 'theme/galeri/css/custom.css' ?>">
+<!--============================= END =============================-->
 
-<!-- end -->
+<!--============================= KENAPA MEMILIH KAMI & BRAND PARTNER =============================-->
+   
+    <style>
+
+@media (max-width:992px){
+  .digital-marketing-service 
+  .flex-item:first-of-type{order:2}
+  .digital-marketing-service 
+  .flex-item:nth-of-type(2){order:1}
+  .digital-marketing-service 
+  .img-digital{text-align:center}
+}
+    </style>
+<!-- BRAND PARTNER -->
+<style>
+@media (max-width: 767px) {
+    .brand-logo {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+}
+.single-logo {
+    padding: 15px 30px;
+    text-align: center;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .single-logo {
+    padding: 15px 15px;
+    }
+}
+@media (max-width: 767px) {
+    .single-logo {
+    padding: 15px 30px;
+    }
+}
+@media (max-width: 767px) {
+    .single-logo {
+    width: 50%;
+    }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .single-logo {
+    width: 33.33%;
+    }
+}
+.single-logo img {
+    max-width: 100%;
+    -webkit-filter: grayscale(5);
+    filter: grayscale(5);
+    opacity: 0.5;
+    -webkit-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+}
+.single-logo:hover img {
+    opacity: 1;
+    -webkit-filter: none;
+    filter: none;
+}
+    </style>
+    <!-- END -->
+
+<!--============================= END =============================-->
 
 </head>
 

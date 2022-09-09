@@ -42,7 +42,7 @@ class M_galeri extends CI_Model{
 	}
 
 	function get_galeri_by_album_id($idalbum){
-		$hsl=$this->db->query("SELECT tbl_galeri.*,DATE_FORMAT(galeri_tanggal,'%d/%m/%Y') AS tanggal,album_nama FROM tbl_galeri join tbl_album on galeri_album_id=album_id where galeri_album_id='$idalbum' ORDER BY galeri_id DESC");
+		$hsl=$this->db->query("SELECT tbl_galeri.*,DATE_FORMAT(galeri_tanggal,'%d/%m/%Y') AS tanggal,album_nama FROM tbl_galeri join tbl_album on tbl_galeri.galeri_album_id=tbl_album.album_id where tbl_galeri.galeri_album_id=$idalbum");
 		return $hsl;
 	}
 	

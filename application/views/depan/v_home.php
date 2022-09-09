@@ -139,7 +139,7 @@
                             <p style="margin-left:15px;">Memberikan pelatihan penulisan paper yang berjalan selama kurun waktu tertentu. Scopus Camp ini bertempat di scopus pusat yang berada di Turi, Sleman dan cabang Rumah Scopus</p>
                             <center>
                                 <a href="https://api.whatsapp.com/send?phone=+6281226883280&text=Hallo%20kak!%20Saya%20mau%20pesan%20program%20Scopus%20Camp." class="btn btn-warning mb-3 mt-3" style="color:white; border-radius:30px; background-color:orange;">
-                                     Pesan Sekarang!
+                                    Pesan Sekarang!
                                 </a>
                             </center>
                         </div>
@@ -198,7 +198,61 @@
 <!--============================= END =============================-->
 
 <!--============================= MENGAPA MEMILIH KAMI =============================-->
-<section class="welcome_about">
+<section class="digital-marketing-service mt-5 mb-5" id="digital-marketing-section">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-12 col-lg-7 grid-margin grid-margin-lg-0" data-aos="fade-right">
+                <h3 class="m-0 card-title" style="font-size: 30px;"><b>Trainer Profesional</b></h3>
+                    <div class="col-lg-10 col-xl-10 p-0">
+                        <p class="py-4 m-0 text-muted">
+                            Rumah Scopus Foundation memiliki Trainer yang sudah berpengalaman dan profesional menulis paper. Trainer kami akan membantu anda untuk 
+                            menyelesaikan paper sampai submit dan publish hingga terindeks Scopus.
+                        </p>
+                        <!--<p class="font-weight-medium text-muted"></p>-->
+                    </div>    
+            </div>
+            <div class="col-12 col-lg-5 p-0 img-digital grid-margin grid-margin-lg-0" data-aos="fade-left">
+                <img src="<?php echo base_url() . 'theme/images/trainer.png' ?>" alt="" class="img-fluid">
+            </div>
+        </div>
+
+        <div class="row align-items-center mt-5">
+            <div class="col-12 col-lg-5 p-0 text-center flex-item grid-margin" data-aos="fade-right">
+                <img src="<?php echo base_url() . 'theme/images/biaya.png' ?>" alt="" class="img-fluid">
+            </div>
+            <div class="col-12 col-lg-6 flex-item grid-margin" data-aos="fade-left">
+                <h3 class="m-0 card-title" style="font-size: 30px;"><b>Biaya Terjangkau</b></h3>
+                    <div class="col-lg-12 col-xl-12 p-0">
+                        <p class="py-4 m-0 text-muted">
+                            Dengan harga yang terjangkau anda dapat mengikuti program yang diberikan oleh Rumah Scopus tanpa menguras kantong. Meskipun harga terjangkau, 
+                            tetapi kualitas kami utamakan baik pelayanan maupun fasilitas yang kami berikan kepada anda.
+                        </p>
+                    </div>
+            </div>
+        </div>
+
+        <div class="row align-items-center mt-5">
+            <div class="col-12 col-lg-7 grid-margin grid-margin-lg-0" data-aos="fade-right">
+                <h3 class="m-0 card-title" style="font-size: 30px;"><b>Fasilitas Lengkap</b></h3>
+                    <div class="col-lg-10 col-xl-10 p-0">
+                        <p class="py-4 m-0 text-muted">
+                        Rumah Scopus Foundation memiliki fasilitas yang lengkap baik dari segi internet, tempat tinggal, makanan ala kampung, suasana sejuk alami yang dapat memenuhi mendukung kenyamanan dalam menyusun paper. Kami juga menyediakan kolam renang 
+                        yang dapat anda gunakan selama berada di lingkungan Rumah Scopus.
+                        </p>
+                        <!--<p class="font-weight-medium text-muted"></p>-->
+                    </div>    
+            </div>
+            <div class="col-12 col-lg-5 p-0 img-digital grid-margin grid-margin-lg-0" data-aos="fade-left">
+                <img src="<?php echo base_url() . 'theme/images/fasilitas.png' ?>" alt="" class="img-fluid">
+            </div>
+        </div>
+
+    </div>
+</section>     
+
+
+
+<!--<section class="welcome_about">
     <div class="container">
         <div class="row">
             <div class="col-md-7">
@@ -238,7 +292,7 @@
         </div>
     </div>
 </section>
-
+-->
 
 <!--============================= END =============================-->
 
@@ -259,9 +313,9 @@
                         <h3>
                             <a href="<?php echo site_url('artikel');?>"><?php echo limit_words($row->tulisan_judul, 5) . '...'; ?></a>
                         </h3>
-                      <span><i class="fa fa-calendar" aria-hidden="true"></i> <?php echo $row->tanggal;?> | <i class="fa fa-user" aria-hidden="true"></i> <?php echo $row->tulisan_author; ?> | <i class="fa fa-tags" aria-hidden="true"></i> <?php echo $row->tulisan_kategori_nama; ?></span> 
-                      <!--<p><?php echo limit_words($row->tulisan_isi,10).'...';?></p>-->
-                      <hr class="event_line">
+                        <span><i class="fa fa-calendar" aria-hidden="true"></i> <?php echo $row->tanggal;?> | <i class="fa fa-user" aria-hidden="true"></i> <?php echo $row->tulisan_author; ?> | <i class="fa fa-tags" aria-hidden="true"></i> <?php echo $row->tulisan_kategori_nama; ?></span> 
+                        <!--<p><?php echo limit_words($row->tulisan_isi,10).'...';?></p>-->
+                        <hr class="event_line">
                     </div>
                 </div>
                 <?php endforeach;?>
@@ -272,7 +326,7 @@
                     <div class="col-md-12">
                         <h2>Agenda Terbaru</h2>
                         <hr size="6px" width="50%" align="left" color="orange" style="margin-top: -15px;">
-                      <?php foreach ($agenda->result() as $row):?>
+                        <?php foreach ($agenda->result() as $row):?>
                         <div class="event_date">
                             <div class="event-date-wrap">
                                 <p><?php echo date("d", strtotime($row->agenda_tanggal));?></p>
@@ -346,6 +400,50 @@
                 <h4 align="center">Dr. Jumintono Suwardi Joyo Sumarto, M.Pd</h4>
             </div>
         </div>
+    </div>
+</section>
+<!--============================= END =============================-->
+
+<!--============================= BRAND PARTNER =============================-->
+<section class="our_courses" style=" margin-top:-50px;">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3" style="position: relative;">
+                <h2>Partner Kami</h2>
+                <hr size="6px" width="100%" align="left" color="orange" style="margin-top: -15px;">
+            </div>
+        </div>
+        <div class="row">
+<div class="brand-area pt-90">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="brand-logo d-flex align-items-center justify-content-center justify-content-md-between">
+                    <div class="single-logo mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
+                        <img src="<?php echo base_url() . 'theme/images/logo/undip.png' ?>" alt="brand" />
+                    </div>
+
+                    <div class="single-logo mt-30 wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.2s">
+                        <img src="<?php echo base_url() . 'theme/images/logo/unesa.png' ?>" alt="brand" />
+                    </div>
+
+                    <div class="single-logo mt-30 wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.3s">
+                        <img src="<?php echo base_url() . 'theme/memilih/images/brands/graygrids.svg' ?>" alt="brand" />
+                    </div>
+
+                    <div class="single-logo mt-30 wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.4s">
+                        <img src="<?php echo base_url() . 'theme/memilih/images/brands/lineicons.svg' ?>" alt="brand" />
+                    </div>
+
+                    <div class="single-logo mt-30 wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.5s">
+                        <img src="<?php echo base_url() . 'theme/memilih/images/brands/ecommerce-html.svg' ?>" alt="brand"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
     </div>
 </section>
 <!--============================= END =============================-->

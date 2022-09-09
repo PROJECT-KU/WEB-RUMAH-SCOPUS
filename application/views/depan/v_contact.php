@@ -1,4 +1,4 @@
-<section class="contact">
+<section class="contact mb-5">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
