@@ -428,15 +428,15 @@
                     </div>
 
                     <div class="single-logo mt-30 wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.3s">
-                        <img src="<?php echo base_url() . 'theme/memilih/images/brands/graygrids.svg' ?>" alt="brand" />
+                        <img src="<?php echo base_url() . 'theme/images/logo/uins.png' ?>" alt="brand" />
                     </div>
 
                     <div class="single-logo mt-30 wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.4s">
-                        <img src="<?php echo base_url() . 'theme/memilih/images/brands/lineicons.svg' ?>" alt="brand" />
+                        <img src="<?php echo base_url() . 'theme/images/logo/uns.png' ?>" alt="brand" />
                     </div>
 
                     <div class="single-logo mt-30 wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.5s">
-                        <img src="<?php echo base_url() . 'theme/memilih/images/brands/ecommerce-html.svg' ?>" alt="brand"/>
+                        <img src="<?php echo base_url() . 'theme/images/logo/univpakuan.png' ?>" alt="brand"/>
                     </div>
                 </div>
             </div>
